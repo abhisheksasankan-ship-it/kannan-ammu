@@ -21,7 +21,19 @@ body{
 ==================================*/
 
 .hero{
-    .hero-image-wrapper{
+
+    min-height:100vh;
+    background:#f8f5ef;
+    padding:70px 20px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+
+}
+
+.hero-image-wrapper{
 
     position:relative;
 
@@ -48,7 +60,6 @@ body{
     background:rgba(255,255,255,.22);
 
     backdrop-filter:blur(6px);
-
     -webkit-backdrop-filter:blur(6px);
 
     border:1px solid rgba(255,255,255,.35);
@@ -58,23 +69,6 @@ body{
     box-shadow:0 20px 45px rgba(0,0,0,.08);
 
 }
-
-    min-height:100vh;
-
-    background:#f8f5ef;
-
-    padding:70px 20px;
-
-    display:flex;
-
-    flex-direction:column;
-
-    align-items:center;
-
-    text-align:center;
-
-}
-
 .hero-image{
 
     width:min(92%,600px);
@@ -618,15 +612,17 @@ font-size:70px;
 
 .hero-name-card{
 
-    width:82%;
+    width:92%;
 
-    bottom:-30px;
+    bottom:-18px;
+
+    padding:18px 24px;
 
 }
 
 .hero-name-card h1{
 
-    font-size:60px;
+    font-size:54px;
 
 }
 
