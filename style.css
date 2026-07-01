@@ -37,7 +37,7 @@ body{
 
     position:relative;
 
-    width:min(92%,600px);
+    width:min(98%,600px);
 
     margin-bottom:45px;
 
@@ -48,41 +48,34 @@ body{
     position:absolute;
 
     left:50%;
-
-    bottom:-35px;
-
     transform:translateX(-50%);
 
-    width:65%;
+    bottom:90px;
 
-    padding:15px 20px;
+    width:98%;
 
-    background:rgba(255,255,255,.22);
+    padding:12px 24px;
 
-    backdrop-filter:blur(6px);
-    -webkit-backdrop-filter:blur(6px);
+    background:rgba(255,255,255,.12);
+
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
 
     border:1px solid rgba(255,255,255,.35);
 
-    border-radius:28px;
+    border-radius:999px;
 
-    box-shadow:0 20px 45px rgba(0,0,0,.08);
+    box-shadow:
+        0 10px 25px rgba(0,0,0,.12),
+        inset 0 1px rgba(255,255,255,.35);
 
 }
 .hero-image{
-
-    width:min(92%,600px);
-
+    width:100%;
     height:auto;
-
     display:block;
-
-    margin-bottom:20px;
-
     border-radius:30px;
-
     box-shadow:0 25px 60px rgba(0,0,0,.12);
-
 }
 
 .hero-text{
@@ -95,25 +88,31 @@ body{
 
     font-family:'Alex Brush',cursive;
 
-    font-size:82px;
+    font-size:62px;
 
     font-weight:400;
 
     line-height:.9;
 
-    color:#3a3027;
+    color:#FFF8ED;
+
+    white-space:nowrap;
+
+    text-shadow:
+        0 2px 8px rgba(0,0,0,.45),
+        0 0 2px rgba(255,255,255,.2);
 
 }
 
-.ampersand{
+.name-divider{
 
-    font-family:'Cormorant Garamond',serif;
+    color:#D4AF37;
 
-    font-size:34px;
+    font-size:.55em;
 
-    color:#B68D40;
+    margin:0 14px;
 
-    margin:2px 0;
+    vertical-align:middle;
 
 }
 
@@ -611,16 +610,15 @@ font-size:70px;
 }
 
 .hero-name-card{
-    width:100%;
-    max-width:390px;
-    bottom:-18px;
-    padding:18px 24px;
+    width:96%;
+    max-width:none;
+    bottom:60px;
+    padding:14px 14px;
+    border-radius:60px;
 }
 
 .hero-name-card h1{
-
-    font-size:52px;
-
+    font-size:clamp(34px, 8vw, 44px);
 }
 
 .hero-image{
