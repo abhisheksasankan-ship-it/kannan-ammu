@@ -106,3 +106,16 @@ backToTop.addEventListener("click",()=>{
     });
 
 });
+const ribbon = document.querySelector(".hero-name-card");
+
+ribbon.addEventListener("click", () => {
+
+    ribbon.classList.add("lift");
+
+    requestAnimationFrame(() => {
+        setTimeout(() => {
+            ribbon.classList.remove("lift");
+        }, 120);
+    });
+
+});
