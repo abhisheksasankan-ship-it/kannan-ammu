@@ -169,6 +169,11 @@ transition:
     font-weight:500;
 
     box-shadow:0 12px 30px rgba(182,141,64,.30);
+        cursor:pointer;
+
+    -webkit-tap-highlight-color: transparent;
+    user-select:none;
+    -webkit-user-select:none;
 
 }
 /*=============================
