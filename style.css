@@ -730,7 +730,7 @@ flex-direction:column;
 
     padding:100px 20px;
 
-    background:#ffffff;
+    background:#fffaf2;
 
 }
 
@@ -745,6 +745,7 @@ flex-direction:column;
     text-align:center;
 
     background:#fdfbf7;
+    border:1px solid rgba(182,141,64,.32);
 
     border-radius:25px;
 
